@@ -1,8 +1,16 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    for(int i=0;i<20;i++){
-        cout<<"India win the world Cup 2023"<<endl;
+int main()
+{
+    int n = 8;
+    int i = 1;
+    while (i <= 10)
+    {
+        cout << n * i << " ";
+        i++;
+        
     }
+   
+
     return 0;
 }
